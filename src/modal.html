@@ -1,0 +1,19 @@
+<div>
+	<sly-card>
+		<div
+			class="fflex align-start"
+			style="flex-direction: column; margin: 10px 0 10px 0"
+		>
+			<sly-field
+				title="Number of Iterations"
+				description="Number of iterations to measure the performance of upload and download"
+			>
+				<el-input-number
+					v-model="state.iterations"
+					:min="1"
+					:max="50"
+				></el-input-number>
+			</sly-field>
+		</div>
+	</sly-card>
+</div>

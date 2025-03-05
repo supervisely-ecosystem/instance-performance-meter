@@ -1,0 +1,18 @@
+{
+	"name": "Instance Performance Meter",
+	"version": "2.0.0",
+	"description": "This application is used to measure performance on the Supervisely instance.",
+	"categories": ["system"],
+	"docker_image": "supervisely/instance-performance:0.1.2",
+	"icon": "https://github.com/user-attachments/assets/71079643-81df-4ac2-b63a-d4b9084ce119",
+	"icon_cover": true,
+	"poster": "https://github.com/user-attachments/assets/a9231641-afb7-4cf7-a5a1-9c6e6fe6b1d4",
+	"main_script": "src/main.py",
+	"task_location": "workspace_tasks",
+	"instance_version": "6.12.34",
+	"only_for_instance_admins": true,
+	"modal_template": "src/modal.html",
+	"modal_template_state": {
+		"iterations": 10
+	}
+}
