@@ -28,3 +28,6 @@ echo "Done! Image built: $IMAGE_NAME:$VERSION"
 echo "To push the image, run:"
 echo "  docker push $IMAGE_NAME:$VERSION"
 echo "  docker push $IMAGE_NAME:latest"
+
+echo "Removing downloaded sample file..."
+rm -f "$SCRIPT_DIR/Performance_Test.tar"
