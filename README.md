@@ -24,15 +24,15 @@ The Instance Performance Meter is an application designed to measure the perform
 
 The Instance Performance Meter offers several key features to enhance the performance measurement process:
 
--   Can only be used by instance administrators
--   The application does not have an interface, but you can open a page to view real-time logs with rendered tables
--   Upon completion of the tests, a file will be created in Team Files where you can view the results in a convenient format without needing to download it
--   In the current version, standard methods for downloading and uploading projects are tested
--   `Coming soon`: new methods with increased load will be added
+- Can only be used by instance administrators
+- The application does not have an interface, but you can open a page to view real-time logs with rendered tables
+- Upon completion of the tests, a file will be created in Team Files where you can view the results in a convenient format without needing to download it
+- In the current version, standard methods for downloading and uploading projects are tested
+- `Coming soon`: new methods with increased load will be added
 
 # How to Use
 
 1. Launch the application and select the number of iterations.
 2. Open the application page to view real-time logs.
 
-    Alternatively, you can wait for the execution to complete and open the report.
+   Alternatively, you can wait for the execution to complete and open the report.
