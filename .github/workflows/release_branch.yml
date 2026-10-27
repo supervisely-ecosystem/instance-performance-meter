@@ -7,7 +7,7 @@ on:
       - master
 jobs:
   Supervisely-Release:
-    uses: supervisely-ecosystem/workflows/.github/workflows/common.yml@runner-updates
+    uses: supervisely-ecosystem/workflows/.github/workflows/common.yml@master
     with:
       SLUG: "${{ github.repository }}"
       RELEASE_VERSION: "${{ github.ref_name }}"
